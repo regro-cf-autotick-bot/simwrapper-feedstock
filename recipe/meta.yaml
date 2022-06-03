@@ -1,5 +1,5 @@
 {% set name = "simwrapper" %}
-{% set version = "1.8.3" %}
+{% set version = "1.8.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/simwrapper-{{ version }}.tar.gz
-  sha256: 6ea7c22450aafd4647a272eb451494b1a568401c7e2406fc5494016eb9097f51
+  sha256: 10e00dc0ba841a6f3f69c2d6afb5afe87d3936b0aff08deaac313fedb3c69318
 
 build:
   number: 0
